@@ -1,0 +1,14 @@
+# Adding folder to git repo local
+  git add
+
+# Commiting a file
+  git commit -m "Text"  # -m stands for message
+
+# Adding remote repo
+  git remote add origin https://   # Url at thelast 
+
+# Setting up a branch
+  git branch -M main # -M is an optino that forces to rename fo the branch 
+
+# pushing a code to git remote 
+  git push -u origin main  # -u This option sets the upstream(tracking) references
